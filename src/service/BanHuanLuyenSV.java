@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 import model.BanHuanLuyen;
 import model.CauThu;
 
-public class BanHuanLuyenSV extends Dulieu {
+public class BanHuanLuyenSV extends DuLieu {
 	public int XoaBanHuanLuyen(BanHuanLuyen bhl)
 	{
 		try

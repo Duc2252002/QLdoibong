@@ -93,7 +93,7 @@ public class QuenMatKhau extends JFrame{
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				dispose();
-				screenlogin lgc= new screenlogin("Đăng Nhập");
+				ScreenLogin lgc= new ScreenLogin("Đăng Nhập");
 				lgc.showWindow();
 				
 			}

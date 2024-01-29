@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
 import model.CauThu;
 import model.Login;
 
-public class CauThuSV extends Dulieu {
+public class CauThuSV extends DuLieu {
 	public int XoaCauThu(CauThu ct)
 	{
 		try

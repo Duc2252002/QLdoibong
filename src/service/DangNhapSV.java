@@ -14,7 +14,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class DangNhapSV extends Dulieu {
+public class DangNhapSV extends DuLieu {
 		
 	public Login login(String user,String pass)
 	{

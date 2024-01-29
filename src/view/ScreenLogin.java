@@ -29,13 +29,13 @@ import javax.swing.border.TitledBorder;
 import model.Login;
 import service.DangNhapSV;
 
-public class screenlogin extends JFrame {
+public class ScreenLogin extends JFrame {
 	JTextField txtUserName;
 	JCheckBox chkSave;
 	JPasswordField txtPassword;
 	JButton btnLogin,btnExit,btnDki,btnQuenMK;
 	
-	public screenlogin(String title)
+	public ScreenLogin(String title)
 	{
 		super(title);
 		addControl();

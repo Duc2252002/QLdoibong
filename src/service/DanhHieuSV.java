@@ -4,14 +4,13 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
-
 import javax.swing.JOptionPane;
 
 import model.BanHuanLuyen;
 import model.CauThu;
 import model.DanhHieu;
 
-public class DanhHieuSV extends Dulieu {
+public class DanhHieuSV extends DuLieu {
 	public int XoaDanhHieu(DanhHieu dh)
 	{
 		try

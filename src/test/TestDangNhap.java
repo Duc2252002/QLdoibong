@@ -1,11 +1,11 @@
 package test;
 
 import view.GioiThieu;
-import view.screenlogin;
+import view.ScreenLogin;
 
 public class TestDangNhap {
 	public static void main(String[] args) {
-		screenlogin sl= new screenlogin("Đăng Nhập");
+		ScreenLogin sl= new ScreenLogin("Đăng Nhập");
 		sl.showWindow();
 	
 	}
